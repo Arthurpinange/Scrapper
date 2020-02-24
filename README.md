@@ -31,12 +31,19 @@ python -m pip install bs4
 
 Classe do da Solução:
 	Main ⇒ Classe da a ser iniciada para realizar o scrapper
-	DBConnection ⇒ Classe responsável pelo acesso ao mongodb
-scrapper ⇒ Classe responsável pelos métodos de scrapper
-dentro do diretório customised temos as classe responsáveis pelo tratamento do sopa de letrinhas(html) retornado pelo scrapper
+
+  DBConnection ⇒ Classe responsável pelo acesso ao mongodb
+
+  scrapper ⇒ Classe responsável pelos métodos de scrapper
+
+Dentro do diretório customised temos as classe responsáveis pelo tratamento do sopa de letrinhas(html) retornado pelo scrapper
+
 	scrapperSiteMaryKay ⇒ Trata retorno do site da Mary Kay
+
 	ScrapperSiteQuemDisse ⇒ Trata retorno do site da Quem Disse
+
 Também implementei um log de arquivo apenas para uma rápida auditório em caso de falha.
+
 	ControllerLog ⇒ Log da aplicação
 
 
